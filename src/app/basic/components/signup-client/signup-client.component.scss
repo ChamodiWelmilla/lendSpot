@@ -1,0 +1,87 @@
+.bg {
+    background-color: #f4f7fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.child {
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    color: #365E32;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.nz-form-item {
+    margin-bottom: 16px;
+}
+
+input[nz-input] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 25px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+}
+
+input[nz-input]:focus {
+    border-color: #365E32;
+    box-shadow: 0 0 5px rgba(24, 144, 255, 0.3);
+}
+
+::placeholder {
+    color: #d9d9d9;
+    padding-left: 5px;
+}
+
+button[nz-button] {
+    width: 60%;
+    padding: 10px 30;
+    font-size: 16px;
+    background-color: #365E32;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+}
+
+button[nz-button]:hover {
+    background-color: #81A263;
+    color: white;
+}
+
+.login-form-margin {
+    margin-bottom: 0;
+}
+
+.login-container {
+    text-align: center;
+}
+
+a {
+    color: #365E32;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

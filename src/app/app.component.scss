@@ -1,0 +1,46 @@
+/* styles.css */
+.maining-header {
+    background: rgba(255, 255, 255, 0.8);
+    /* Slightly transparent white background */
+    backdrop-filter: blur(8px);
+    /* Apply blur effect */
+    padding: 10px 20px;
+    /* Padding around the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* Optional: subtle border for better separation */
+}
+
+.maining-header h2 {
+    color: #000 !important;
+    /* Force black text color for the header title */
+    margin: 5;
+    /* Remove default margin */
+}
+
+.nav-links a {
+    color: #333;
+    /* Dark text for links */
+    text-decoration: none;
+    /* Remove underline from links */
+    margin: 0 10px;
+    /* Spacing between links */
+    font-size: 16px;
+    /* Font size for links */
+    padding: 5px 10px;
+    /* Padding around the links */
+    border-radius: 4px;
+    /* Rounded corners for buttons */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for background and color */
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Slightly darker background on hover and active */
+    color: #333;
+    /* Dark text on hover and active */
+}
